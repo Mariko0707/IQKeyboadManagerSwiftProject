@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA486E9181B05B8C1A10CB1 /* Pods_IQKeyboadManagerSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226BCE2EE14505BC5306C7F1 /* Pods_IQKeyboadManagerSwiftProject.framework */; };
+		F0EF508922EE867F006F8347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF508822EE867F006F8347 /* AppDelegate.swift */; };
+		F0EF508B22EE867F006F8347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF508A22EE867F006F8347 /* ViewController.swift */; };
+		F0EF508E22EE867F006F8347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EF508C22EE867F006F8347 /* Main.storyboard */; };
+		F0EF509022EE8681006F8347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EF508F22EE8681006F8347 /* Assets.xcassets */; };
+		F0EF509322EE8681006F8347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EF509122EE8681006F8347 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		226BCE2EE14505BC5306C7F1 /* Pods_IQKeyboadManagerSwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQKeyboadManagerSwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		403EF69275A2530BF6504B9E /* Pods-IQKeyboadManagerSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboadManagerSwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-IQKeyboadManagerSwiftProject/Pods-IQKeyboadManagerSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B4FAFAAEEF0C5B4767168D18 /* Pods-IQKeyboadManagerSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboadManagerSwiftProject.release.xcconfig"; path = "Target Support Files/Pods-IQKeyboadManagerSwiftProject/Pods-IQKeyboadManagerSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+		F0EF508522EE867F006F8347 /* IQKeyboadManagerSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQKeyboadManagerSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EF508822EE867F006F8347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0EF508A22EE867F006F8347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0EF508D22EE867F006F8347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0EF508F22EE8681006F8347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0EF509222EE8681006F8347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0EF509422EE8681006F8347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0EF508222EE867F006F8347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA486E9181B05B8C1A10CB1 /* Pods_IQKeyboadManagerSwiftProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20574A503F8BC0A36846D578 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				403EF69275A2530BF6504B9E /* Pods-IQKeyboadManagerSwiftProject.debug.xcconfig */,
+				B4FAFAAEEF0C5B4767168D18 /* Pods-IQKeyboadManagerSwiftProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6F0A278508D517600308900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226BCE2EE14505BC5306C7F1 /* Pods_IQKeyboadManagerSwiftProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0EF507C22EE867F006F8347 = {
+			isa = PBXGroup;
+			children = (
+				F0EF508722EE867F006F8347 /* IQKeyboadManagerSwiftProject */,
+				F0EF508622EE867F006F8347 /* Products */,
+				20574A503F8BC0A36846D578 /* Pods */,
+				E6F0A278508D517600308900 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0EF508622EE867F006F8347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF508522EE867F006F8347 /* IQKeyboadManagerSwiftProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0EF508722EE867F006F8347 /* IQKeyboadManagerSwiftProject */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF508822EE867F006F8347 /* AppDelegate.swift */,
+				F0EF508A22EE867F006F8347 /* ViewController.swift */,
+				F0EF508C22EE867F006F8347 /* Main.storyboard */,
+				F0EF508F22EE8681006F8347 /* Assets.xcassets */,
+				F0EF509122EE8681006F8347 /* LaunchScreen.storyboard */,
+				F0EF509422EE8681006F8347 /* Info.plist */,
+			);
+			path = IQKeyboadManagerSwiftProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0EF508422EE867F006F8347 /* IQKeyboadManagerSwiftProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EF509722EE8681006F8347 /* Build configuration list for PBXNativeTarget "IQKeyboadManagerSwiftProject" */;
+			buildPhases = (
+				6BA72C9B56EF8B2495F23F04 /* [CP] Check Pods Manifest.lock */,
+				F0EF508122EE867F006F8347 /* Sources */,
+				F0EF508222EE867F006F8347 /* Frameworks */,
+				F0EF508322EE867F006F8347 /* Resources */,
+				CD6085AC51423A39DF3D802B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboadManagerSwiftProject;
+			productName = IQKeyboadManagerSwiftProject;
+			productReference = F0EF508522EE867F006F8347 /* IQKeyboadManagerSwiftProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0EF507D22EE867F006F8347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mariko;
+				TargetAttributes = {
+					F0EF508422EE867F006F8347 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F0EF508022EE867F006F8347 /* Build configuration list for PBXProject "IQKeyboadManagerSwiftProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0EF507C22EE867F006F8347;
+			productRefGroup = F0EF508622EE867F006F8347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0EF508422EE867F006F8347 /* IQKeyboadManagerSwiftProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0EF508322EE867F006F8347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EF509322EE8681006F8347 /* LaunchScreen.storyboard in Resources */,
+				F0EF509022EE8681006F8347 /* Assets.xcassets in Resources */,
+				F0EF508E22EE867F006F8347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BA72C9B56EF8B2495F23F04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyboadManagerSwiftProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6085AC51423A39DF3D802B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQKeyboadManagerSwiftProject/Pods-IQKeyboadManagerSwiftProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQKeyboadManagerSwiftProject/Pods-IQKeyboadManagerSwiftProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IQKeyboadManagerSwiftProject/Pods-IQKeyboadManagerSwiftProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0EF508122EE867F006F8347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EF508B22EE867F006F8347 /* ViewController.swift in Sources */,
+				F0EF508922EE867F006F8347 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0EF508C22EE867F006F8347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0EF508D22EE867F006F8347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0EF509122EE8681006F8347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0EF509222EE8681006F8347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0EF509522EE8681006F8347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0EF509622EE8681006F8347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0EF509822EE8681006F8347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403EF69275A2530BF6504B9E /* Pods-IQKeyboadManagerSwiftProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K86JZQ8TP;
+				INFOPLIST_FILE = IQKeyboadManagerSwiftProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.IQKeyboadManagerSwiftProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0EF509922EE8681006F8347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FAFAAEEF0C5B4767168D18 /* Pods-IQKeyboadManagerSwiftProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K86JZQ8TP;
+				INFOPLIST_FILE = IQKeyboadManagerSwiftProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.IQKeyboadManagerSwiftProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0EF508022EE867F006F8347 /* Build configuration list for PBXProject "IQKeyboadManagerSwiftProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EF509522EE8681006F8347 /* Debug */,
+				F0EF509622EE8681006F8347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EF509722EE8681006F8347 /* Build configuration list for PBXNativeTarget "IQKeyboadManagerSwiftProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EF509822EE8681006F8347 /* Debug */,
+				F0EF509922EE8681006F8347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0EF507D22EE867F006F8347 /* Project object */;
+}
